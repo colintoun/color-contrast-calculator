@@ -1,0 +1,88 @@
+/*
+    Name: Colin Tounalom
+    Date: 9.3.24
+    This is my Calculator.css file. This CSs file includes
+    various fonts, background colors, and border radius etc.
+     to give my website it's sleak and modern look.
+*/
+.hexvalue, .hexvalue2 {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#hex1, #hex2 {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    background: lightgray;
+    background-color: lightgrey;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 85%;
+    height: 900px;
+}
+
+h1 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-right: 3em;
+}
+
+.preview {
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    background: lightgray;
+    transition: background 0.5s;
+}
+
+#num {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: lightgray;
+    font-size: 25px;
+    margin-right: 8em;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+}
+
+#color-ratio {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: lightgray;
+    font-size: 25px;
+    margin-right: 8em;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+}
+
+.colorpicker, .colorpicker2 {
+    font-size: 18px;
+}
+
+.ui {
+    display: flex;
+    justify-content: center;
+    margin-top: 50em;
+}
+
+#color1, #color2 {
+    height: 34px;
+    width: 260px;
+}
+
+#nums, #c-ratio {
+    font-size: 20px;
+}

@@ -1,0 +1,60 @@
+<!--
+    Name: Colin Tounalom
+    Date: 9.3.24
+    This is my Calculator website in the Calculator.html file. This HTML file includes
+    all the words, a color picker and a way to change the text on the website
+    using contenteditable. I used this feature because I believe it is very cool
+    and makes my website have its unique feature compared to other color contrast
+    calculators!
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Color Contrast</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">Color Contrast Checker</h1>
+    </header>
+
+    <main>
+        <div>
+            <h3 id="c-ratio">Color Contrast Ratio:</h3>
+            <h4 id="color-ratio">Good or Bad?</h4>
+            <h4 id="nums">Color Contrast Value:</h4>
+            <h4 id="num">num</h4>
+        </div>
+
+        <div>
+            <p class="hexvalue">Hex Value: Text Color</p>
+            <span id="hex1">#000000</span>
+        </div>
+
+        <div>
+            <p class="hexvalue2">Hex Value: Background Color</p>
+            <span id="hex2">#FFFFFF</span>
+        </div>
+
+        <section>
+            <label for="color1" class="colorpicker">Text Color</label>
+            <input type="color" id="color1">
+        </section>
+
+        <section>
+            <label for="color2" class="colorpicker2">Background Color</label>
+            <input type="color" id="color2">
+        </section>
+
+        <div>
+            <h2 class="preview" contenteditable="true">You can edit this.</h2>
+        </div>
+    </main>
+
+    <footer>
+        <h3 class="ui">UI created by Colin Tounalom</h3>
+    </footer>
+</body>
+</html>
